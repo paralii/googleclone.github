@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #e8e8e8;
+    background-color: #202124;
+    font-family: Arial, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+.header {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+    padding: 6px;
+    margin: 5px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .link {
+    margin: 0 8px;
+}
+.header #topright {
+    display: flex;
+    align-items: center;
+}
+
+.searchlab {
+    width: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    fill:#e8eaed;
+}
+.searchlab:hover {
+    background-color: #444648;
+}
+
+.googleapps {
+    width: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    fill: #e8eaed;
+}
+.googleapps:hover {
+    background-color: #444648;
+}
+
+.profile-picture {
+    width: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.profile-picture:hover {
+    background-color: #444648
+}
+
+.main {
+    height: 80vh;
+    width: 100vw; 
+    max-width: 580px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main .logo {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.search {
+    height: 46px;
+    width: 100%;
+    margin: 5px;
+    padding-left:40px ;
+    padding-right:90px ;
+    border-radius: 30px;
+    outline: none;
+
+    border: 1px solid #5f6368;
+    background-color: transparent;
+}
+
+.svgs {
+    position: relative;
+    width: 100%;
+}
+
+.main .icon {
+    width: 20px;
+    top: 19px;
+    left: 18px;
+    position: absolute;
+    fill: #9aa0a6;
+}
+
+.main .mic {
+    width: 24px;
+    top: 17px;
+    right: 50px;
+    position: absolute;
+}
+
+.main .lens {
+    width: 24px;
+    top: 17px;
+    right: 10px;
+    position: absolute;
+}
+
+
+.search:hover,.search:focus {
+    box-shadow: 0 1px 6px;
+    border-color: #27282a;
+}
+
+.action {
+    padding: 25px 0;
+}
+
+.action button {
+    height: 34px;
+    padding: 0 17px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: -13px;
+
+    border: 1px solid #303134;
+    background-color: #303134;
+    color: #e8e8e8;
+}
+
+.action button:hover{
+    box-shadow: 0 1px 1px #313335;
+    border-color: #5f6368;
+    cursor: pointer;
+}
+
+#google-offered-in {
+    font-size: 13px;
+    color: #bfbfbf;
+}
+
+.language {
+    margin: 2px;
+    font-size: 13px;
+    color: #99c3ff;
+}
+
+.footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-height: 94px;
+    position: fixed;
+
+    background-color: #171717;
+}
+
+#location {
+    height: 47px;
+    padding: 0 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #313335;
+    display: flex;
+    align-items: center;
+}
+
+#footerlinks {
+    min-height: 46px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#bottomright , #bottomleft {
+    min-height: 46px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+#footerlinks .link {
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 600px) {
+    #footerlinks {
+        justify-content: space-evenly;
+    }
+}
