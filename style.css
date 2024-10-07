@@ -10,9 +10,6 @@ body {
     text-decoration: none;
     color: #e8e8e8;
 }
-.link:hover {
-    text-decoration: underline;
-}
 
 .header {
     top: 0;
@@ -41,12 +38,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     fill:#e8eaed;
 }
-.searchlab:hover {
-    background-color: #444648;
-}
+
 
 .googleapps {
     width: 25px;
@@ -55,20 +50,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     fill: #e8eaed;
 }
-.googleapps:hover {
-    background-color: #444648;
-}
+
 
 .profile-picture {
     width: 30px;
     padding: 10px;
     border-radius: 50%;
-}
-.profile-picture:hover {
-    background-color: #444648
 }
 
 .main {
@@ -94,7 +84,7 @@ body {
     padding-right:90px ;
     border-radius: 30px;
     outline: none;
-
+    
     border: 1px solid #5f6368;
     background-color: transparent;
 }
@@ -129,10 +119,6 @@ body {
 }
 
 
-.search:hover,.search:focus {
-    box-shadow: 0 1px 6px;
-    border-color: #27282a;
-}
 
 .action {
     padding: 25px 0;
@@ -145,17 +131,12 @@ body {
     font-size: 14px;
     border-radius: 4px;
     margin-bottom: -13px;
-
+    
     border: 1px solid #303134;
     background-color: #303134;
     color: #e8e8e8;
 }
 
-.action button:hover{
-    box-shadow: 0 1px 1px #313335;
-    border-color: #5f6368;
-    cursor: pointer;
-}
 
 #google-offered-in {
     font-size: 13px;
@@ -174,7 +155,7 @@ body {
     left: 0;
     min-height: 94px;
     position: fixed;
-
+    
     background-color: #171717;
 }
 
@@ -206,8 +187,27 @@ body {
     padding: 0 15px;
 }
 
-@media screen and (max-width: 600px) {
+
+/* @media screen and (max-width: 600px) {
     #footerlinks {
         justify-content: space-evenly;
     }
 }
+.link:hover {
+    text-decoration: underline;
+}
+.action button:hover{
+    box-shadow: 0 1px 1px #313335;
+    border-color: #5f6368;
+    cursor: pointer;
+}
+.search:hover,.search:focus {
+    box-shadow: 0 1px 6px;
+    border-color: #27282a;
+}
+.profile-picture:hover {
+    background-color: #444648
+}
+.searchlab:hover {
+    background-color: #444648;
+} */
